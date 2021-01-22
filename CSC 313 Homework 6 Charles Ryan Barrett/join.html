@@ -1,0 +1,103 @@
+<html>
+<!--    KY Botanical Society
+By: Charles Ryan Barrett
+For CSC 313
+-->
+    <head>
+    <meta charset ="UTF-8"/>
+    <title>Kentucky Botanical Society</title>
+    <link href="design.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+        <header>
+                <a href="home.html"><img src="logo_serious.png" alt="Our Beautiful logo" id="logoimg"/></a>
+        </header>
+        
+        <nav>
+            <ul>
+                <h1>Menu</h1>
+                <a href ="home.html"><li>Home</li></a>
+                <a href ="event.html"><li>Events</li></a>
+                <a href ="join.html"><li>Join Us</li></a>
+            </ul>
+        </nav>
+        
+        <section>
+            <style>
+                section{
+                    float:none;
+                }
+            </style>
+            
+            <h1 id ="first_word">Become A Member</h1>
+            <form>
+            <fieldset>
+                <legend>Enter Your Information</legend>
+                
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" required="required">
+                
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" required="required"><br>
+                
+                <label for="addr">Street Address:</label> <input type="text" name ="addr" id="addr" required="required">
+                
+<!--            I know how you would do it for all 50 states, but that would take up a LOT of space.
+                <label for="state">State</label> <select name="state" id="state" size = 3>
+<option value="KY" selected ="selected">KY</option>
+<option value="TN">TN</option>
+<option value="neither">Not KY or TN</option>
+
+                </select>
+-->
+              <label for="state">State:</label> <input type="text" name ="state" id="state" required="required"><br>
+              <label for="phone">Phone Number:</label> <input type="tel" name ="phone" id="phone">
+<!--                I did not forget the required on phone. I feel that would not be a required field on a real website.-->
+                
+                <label for="email">Email:</label> <input type="email" name ="email" id="email" required="email"><br>
+                
+                <label for="gen">Gender:</label> 
+                <select name ="gen" id="gen" size="1">
+                <option value="male">Male</option>
+                <option value ="fem">Female</option>
+                <option value ="Other">Other</option>
+                </select>
+                
+                <label for="teir">Membership:</label> 
+                <select name ="teir" id="teir" size="1" required="required">
+                <option value="gold">Gold $15/month</option>
+                <option value ="silver">Silver $10/month</option>
+                <option value ="bronze">Bronze $6/month</option>
+                </select><br>
+                
+                <label for="uname">User Name:</label> <input type ="text" name ="uname" id="uname" required="required">
+                <label for="pass">Password:</label> <input type="password" name="pass" id="pass" required="required"><br>
+                
+                <label>Why do you wish to join?<br>
+                <textarea
+                    row="5" cols="50" name="why" id="why" maxlength="1000">
+                </textarea>
+                </label><br>
+                
+                <input type="submit"> <input type="reset">
+            </fieldset>
+                
+             </form>
+            
+        </section>
+        
+        <footer>
+            <h3> 1345 East Plant Ln. Richmond, KY &#9679;     &copy; Charles Ryan Barrett. April 1st, 2019</h3>
+        </footer>
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+</html>

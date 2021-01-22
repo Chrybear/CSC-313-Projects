@@ -1,0 +1,115 @@
+body{
+    background-color:lightskyblue;
+    font-family: Times New Roman, sans-serif, cursive;
+    margin: 0px auto;
+    width: 100%;
+    height 100%;
+    max-height: 400px;
+    max-width: 1000;
+    
+}
+header{
+    margin: 0px;
+}
+
+
+#logoimg{
+    margin-bottom:0px;
+    border: 6px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gold;
+    background-image: url(garden.jpg);
+    background-size: 1000px 313px;
+    background-repeat: no-repeat;
+}
+nav{
+    position:relative
+    margin-top: 10px;
+    margin-left:300px;
+    margin-right:300px;
+    border: 6px;
+    border-style: solid;
+    border-radius:15px;
+    border-color:gold;
+    background-color:cornflowerblue;
+}
+
+nav ul{
+
+    background-color:cornflowerblue;
+
+}
+nav ul h1{
+    text-align: center;
+    margin:auto;
+    margin-left: -40px;
+    padding: 5px;
+    border-style: none;
+}
+
+nav ul li{
+    color: red;
+    margin-left: 7px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size:1.2em;
+    background-image: url(daisy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul a:hover{
+    background-color:orange;
+    display:inline-block;
+    
+}
+
+h1{
+    border: 6px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gold;
+    padding: 5px;
+    letter-spacing: 0.1em;
+    background-color:cornflowerblue;
+}
+.first_word{
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+p{
+    text-align: left;
+    float:left;
+}
+section img{
+    float:right;
+}
+#lalign{
+    float: left;
+}
+section{
+    margin-top:-19px;
+    float: left;
+    font-size:1.5em;
+    border: 6px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gold;
+    padding: 10px;
+    text-align: center;
+    background-color:cornflowerblue;
+}
+
+footer{
+    color:forestgreen;
+    font-size: 0.5em;
+    background-color:gold;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px;
+    padding: 1px;
+}
